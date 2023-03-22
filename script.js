@@ -3,7 +3,7 @@ function carregar(){
     var img = window.document.getElementById('imagem')
     var data = new Date()
    // var hora = data.getHours()
-    var hora =20
+    var hora =8
     msg.innerHTML = `Agora sao ${hora} horas`
     if (hora >= 0 && hora < 12){
         document.body.style.background = '#e2cd9f'
@@ -11,7 +11,7 @@ function carregar(){
         img.src = '/aula14/dia.jpeg'
     }else if (hora >= 12 && hora <18){
         //Boa Tarde!
-        document.body.style.background = '#b9846f'
+        document.body.style.background = '#b9848f'
         img.src = '/aula14/fim-de-tarde.jpg'
     } else {
         //Boa Noite!
