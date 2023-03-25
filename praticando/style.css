@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@media screen and (min-width: 768px){
+    
+}
+body{
+    background:rgba(195, 0, 255, 0.501);
+}
+
+header{
+    font-family: pacifico;
+  text-align: center;
+}
+section{
+    background: white;
+    border: 1px solid black;
+    width: 400px;
+    max-height: 300px;
+   padding: 5px;
+   margin: auto;
+}

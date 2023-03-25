@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 400px){
+    
+}
+body{
+    background:rgba(195, 0, 255, 0.501);
+}
+
+header{
+    font-family: pacifico;
+  text-align: center;
+}
+section{
+    background: white;
+    border: 1px solid black;
+    width: 400px;
+    max-height: 300px;
+   padding: 5px;
+   margin: auto;
+}
